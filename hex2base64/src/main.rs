@@ -7,7 +7,7 @@ pub fn convert_hex_to_base64(hex: &str) -> String {
 }
 
 
-pub fn main(){
+fn main(){
     println!("[-] Convert HEX to BASE64 - cryptopals.com [-]");
     let input = "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d";
     println!("[*] Input value: {}", input);
